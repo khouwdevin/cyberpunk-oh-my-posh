@@ -13,6 +13,10 @@
         {
           "foreground": "#00eaff",
           "style": "plain",
+          "properties": {
+            "max_depth": 2,
+            "style": "agnoster_short"
+          },
           "template": " \ue5ff {{ .Path }}",
           "type": "path"
         },
