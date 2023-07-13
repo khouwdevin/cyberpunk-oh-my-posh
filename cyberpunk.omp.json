@@ -1,5 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "$schema": "https://raw.githubusercontent.com/khouwdevin/cyberpunk-oh-my-posh/main/cyberpunk.omp.json",
+  "final_space": true,
+  "version": 3,
+  "console_title_template": "{{ .Shell }} in {{ .UserName }}",
   "blocks": [
     {
       "alignment": "left",
@@ -47,9 +50,9 @@
         {
           "foreground": "#00ff62",
           "properties": {
-            "time_format": "15:04:05 Monday, January 2 2006"
+            "time_format": "3:04:05 PM Monday, January 2 2006"
           },
-          "style": "diamond",
+          "style": "plain",
           "template": "",
           "type": "time"
         },
@@ -72,28 +75,27 @@
         {
           "foreground": "#E06C75",
           "style": "plain",
-          "template": "\u2570\u2500",
+          "template": "\u2570\u2500|",
           "type": "text"
         },
         {
           "foreground": "#ff0015",
           "style": "plain",
-          "properties": {
-            "always_enabled": true
-          },
-          "template": "|",
+          "template": "",
           "type": "exit"
         }
       ],
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{ .Shell }} in {{ .UserName }}",
   "transient_prompt": {
     "background": "transparent",
     "foreground": "#00ff62",
     "template": "+> "
   },
-  "final_space": true,
-  "version": 2
+  "secondary_prompt": {
+    "background": "transparent",
+    "foreground": "#00ff62",
+    "template": "=> "
+  }
 }
