@@ -88,6 +88,16 @@
       "type": "prompt"
     }
   ],
+  "valid_line": {
+    "background": "transparent",
+    "foreground": "#ffffff",
+    "template": ""
+  },
+  "error_line": {
+    "background": "transparent",
+    "foreground": "#ffffff",
+    "template": ""
+  },
   "transient_prompt": {
     "background": "transparent",
     "foreground": "#00ff62",
