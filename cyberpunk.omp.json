@@ -46,11 +46,12 @@
     },
     {
       "alignment": "right",
+      "overflow": "break",
       "segments": [
         {
           "foreground": "#00ff62",
           "properties": {
-            "time_format": "3:04:05 PM Monday, January 2 2006"
+            "time_format": "Mon, 02 Jan 2006 03:04 PM"
           },
           "style": "plain",
           "template": "",

@@ -1,8 +1,6 @@
-# Cyberpunk Oh My Posh Themes
+# Cyberpunk Oh My Posh Theme
 
-This is oh my posh theme that I modify from amro theme.
-
-Here's [the amro theme](https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/amro.omp.json)!!
+A cyberpunk-styled theme for [Oh My Posh](https://ohmyposh.dev/).
 
 ### Pictures
 
